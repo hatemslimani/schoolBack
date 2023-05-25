@@ -26,7 +26,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-@CrossOrigin(origins = {"http://localhost:4200","http://localhost:8100"})
+@CrossOrigin(origins = {"https://schoolback.azurewebsites.net","http://localhost:8100"})
 @RestController
 @RequestMapping("/news")
 public class NewsController {
